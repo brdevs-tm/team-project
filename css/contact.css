@@ -1,0 +1,138 @@
+.first {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* gap: 141px; */
+  margin-top: 258px;
+  margin-bottom: 214px;
+}
+.first-left h1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--color-pink);
+}
+.first-left h2 {
+  margin-top: 16px;
+  margin-bottom: 41px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 66px;
+  letter-spacing: -2px;
+  color: #0f172a;
+}
+.first-left span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  color: var(--color-grayscale-black);
+}
+.span-header-1 {
+  display: flex;
+  align-items: center;
+  gap: 21.17px;
+}
+.with-context {
+  margin-bottom: 16px;
+}
+
+.with-context p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: var(--color-grey);
+}
+hr {
+  margin-bottom: 24px;
+}
+.span-header-2 {
+  display: flex;
+  align-items: center;
+  gap: 21.17px;
+  margin-bottom: 27px;
+}
+
+.span-header-3 {
+  display: flex;
+  align-items: center;
+  gap: 21.17px;
+  margin-top: 24px;
+}
+
+.first-right {
+  display: flex;
+  gap: 8.73px;
+}
+
+/*second*/
+
+.second {
+  background-image: url(../assets/img/big-card/bg-big.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 104px;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  /* padding-right: 113px; */
+}
+.second-left {
+  position: relative;
+  top: -65px;
+}
+.second-right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 71px;
+  right: 114px;
+}
+.second-right h1 {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: center;
+}
+.second-right h2 {
+  margin-bottom: 13px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 66px;
+  letter-spacing: -2px;
+  color: #ffffff;
+  text-align: center;
+}
+.second-right p {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  text-align: center;
+}
+.second-right button {
+  padding: 18px 28px;
+  border: none;
+  border-radius: 5px;
+  background: var(--color-pink);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #f8fafc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}

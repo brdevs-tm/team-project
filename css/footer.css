@@ -1,0 +1,124 @@
+.columns {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 45px;
+}
+.first-row {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.second-row {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.columns a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--color-grayscale-grey);
+}
+.columns h1 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0f172a;
+}
+.columns p {
+  /* margin-top: 34px; */
+  margin-bottom: 51px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #657791;
+}
+.column-1 {
+  display: flex;
+  /* align-items: center; */
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.column-2 {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.links-1 {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.column-3 {
+  display: flex;
+  flex-direction: column;
+}
+.column-3 h1 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0f172a;
+}
+.links-2 {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.column-4 {
+  display: flex;
+  flex-direction: column;
+}
+.column-4 h1 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-grayscale-black);
+}
+.column-4 p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: var(--color-grayscale-grey);
+}
+.subscribe {
+  margin-top: 12px;
+}
+.subscribe form {
+  display: flex;
+  margin-top: 21px;
+  margin-bottom: 52px;
+}
+.subscribe input {
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  width: 276px;
+  height: 58px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.subscribe button {
+  height: 58px;
+  padding: 15px 22.5px;
+  background: var(--color-pink);
+  border: 1px solid #e6e6e6;
+  border-radius: 0px 5px 5px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.follow {
+  display: flex;
+  gap: 23px;
+}
